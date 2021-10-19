@@ -78,7 +78,7 @@ $textocopy = "2021 All Rights Reserved.";
     <div class="about_text">
       <div class="container">
         <h1 class="about_taital_1"><strong><span style="color: #f7941d;"><?php echo $pregunta; ?></span><?php echo $preguntas; ?> </strong></h1>
-        <p class="magna_text"><span style="color: #9B870C;"><?php echo $respuesta ?></p>
+        <p class="magna_text"><span style="color:  #000000;"><?php echo $respuesta ?></p>
         <div class="about_bt">
         </div>
         <div class="about">
