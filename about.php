@@ -60,9 +60,9 @@ $textocopy = "2021 All Rights Reserved.";
 							<div id="myNav" class="overlay">
                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                             <div class="overlay-content">
-							    <a href="index_html.php"><?php echo "$menu[menu1]"; ?></a>
-                                <a href="about_html.php"><?php echo "$menu[menu2]"; ?></a>
-                                <a href="gallery_html.php"><?php echo "$menu[menu3]"; ?></a>
+							                  <a href="index.php"><?php echo "$menu[menu1]"; ?></a>
+                                <a href="about.php"><?php echo "$menu[menu2]"; ?></a>
+                                <a href="gallery.php"><?php echo "$menu[menu3]"; ?></a>
                             </div>
                             </div>
                             <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; <?php echo $name_menu;?></span>
@@ -78,7 +78,7 @@ $textocopy = "2021 All Rights Reserved.";
     <div class="about_text">
       <div class="container">
         <h1 class="about_taital_1"><strong><span style="color: #f7941d;"><?php echo $pregunta; ?></span><?php echo $preguntas; ?> </strong></h1>
-        <p class="magna_text"><span style="color:  #000000;"><?php echo $respuesta ?></p>
+        <p class="magna_text"><span style="color: #000000;"><?php echo $respuesta ?></p>
         <div class="about_bt">
         </div>
         <div class="about">
